@@ -1,8 +1,8 @@
-use raytracing::camera::Camera;
-use raytracing::hittable_list::HittableList;
-use raytracing::material::{Dielectric, Lambertian, Metal};
-use raytracing::sphere::Sphere;
-use raytracing::{random_f64, random_f64_in, vec3::*};
+use raytracing_in_one_weekend::camera::Camera;
+use raytracing_in_one_weekend::hittable_list::HittableList;
+use raytracing_in_one_weekend::material::{Dielectric, Lambertian, Metal};
+use raytracing_in_one_weekend::sphere::Sphere;
+use raytracing_in_one_weekend::{random_f64, random_f64_in, vec3::*};
 use std::rc::Rc;
 
 fn main() {
